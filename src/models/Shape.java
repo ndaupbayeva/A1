@@ -12,7 +12,7 @@ public class Shape {
         points.add(point);
     }
 
-    public double perimeter(){
+    public double perimeter(){  // function for finding perimeter
         double perimeter = 0;
         int size = points.size();
 
@@ -27,7 +27,7 @@ public class Shape {
         return perimeter;
     }
 
-    public double averageSide(){
+    public double averageSide(){  // function for finding average side
         double len = 0;
         int size = points.size();
 
@@ -42,7 +42,7 @@ public class Shape {
         return average;
     }
 
-    public double longestSide(){
+    public double longestSide(){  // function for finding longest side
         double len = 0;
         int size = points.size();
 
