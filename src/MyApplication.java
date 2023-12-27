@@ -10,7 +10,7 @@ public class MyApplication {
         Scanner sc = new Scanner(file);
         Shape shape = new Shape();
 
-        while (sc.hasNext()){
+        while (sc.hasNext()){  // scans our source file to take coordinates and gives points to other files
             double x = sc.nextDouble();
             double y = sc.nextDouble();
 
